@@ -87,6 +87,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 }
 
 
@@ -94,11 +95,10 @@ body{
     content: "";
     width: 20rem;
     height: 20rem;
-    margin: 75px 25px;
     position: absolute;
     border-radius: 50%;
     background-color: rgba(55, 140, 63, 0.6);
-    margin: 75px 25px;;
+    margin: 75px 25px;
     z-index: -1;
     opacity: 0.7;
     animation: pulsate 1.6s ease-out 0s infinite normal none;
@@ -162,7 +162,57 @@ body{
 
 .socialNetworking{
     font-size: 5rem;
-    margin-top: 14rem;
+    margin-top: 12rem;
+}
+
+/* Second Section*/
+
+.secondSection{
+    display: flex;
+    margin: 4rem 36rem;
+    width: 120rem;
+    height: 80rem;
+    border: 2px solid red;
+    background: yellow;
+    
+}
+.about{
+    margin: 2rem 2rem;
+    width: 60rem;
+    height: 26rem;
+    border: 2px solid black;
+}
+
+.about h1{
+    margin: 0rem 2rem;
+    font-size: 4rem;
+}
+
+.about p{
+    margin: 2rem 2rem;
+    font-size: 2.5rem;
+}
+
+.basicInformation{
+    margin: 2rem 2rem;
+    width: 60rem;
+    height: 26rem;
+    border: 2px solid black;
+}
+
+.basicInformation h1{
+    margin: 0rem 2rem;
+    font-size: 4rem;
+}
+
+.basicInformation .detalis{
+    width: 19rem;
+    height:21rem;
+    border: 2px solid blue;
+}
+
+.basicInformation .detalis ul{
+    list-style: none;
 }
 /* Footer */
 footer {
@@ -189,7 +239,13 @@ font-size: 3rem;
     margin-bottom: 3rem;
 }
 
-footer p{
+.socialNetworkData p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+footer .footerHeart{
     margin: 0;
     text-align: center;
     color: #fff;
