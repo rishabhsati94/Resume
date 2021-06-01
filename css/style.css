@@ -600,6 +600,7 @@ section{
 .card .right h1{
     color: black;
     margin: 2rem 2rem;
+   
 }
 
 .card .right p{
@@ -622,7 +623,7 @@ section{
     .card .right{
         width: auto;
     }
-    .card .right h1{
+    .card .right h1,h2{
         text-align: center;
     }
 }
@@ -639,8 +640,7 @@ section{
 
 .card .right h2{
     color: black;
-    margin: 2rem;
-    margin-top: -1.8rem;
+    margin: -1.8rem 2rem 2rem 2rem;
     font-size: 1.5rem;
 }
 /* Footer */
