@@ -172,15 +172,16 @@ body{
     margin: 4rem 36rem;
     width: 120rem;
     height: 80rem;
-    border: 2px solid red;
-    background: yellow;
+    /* border: 2px solid red; */
+    background: whitesmoke;
+    border-radius: 3rem;
     
 }
 .about{
     margin: 2rem 2rem;
     width: 60rem;
     height: 26rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .about h1{
@@ -197,7 +198,11 @@ body{
     margin: 2rem 2rem;
     width: 60rem;
     height: 26rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.arrangeAbout{
+    display: flex;
 }
 
 .basicInformation h1{
@@ -206,14 +211,44 @@ body{
 }
 
 .basicInformation .detalis{
-    width: 19rem;
+    width: 15rem;
     height:21rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .basicInformation .detalis ul{
+    margin: 0rem 2rem;
     list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
 }
+
+.basicInformation .detalis ul li{
+    padding: 1rem;
+}
+
+.basicInformation .detalisFill{
+    width: 40rem;
+    height:21rem;
+    /* border: 2px solid blue; */
+}
+
+.basicInformation .detalisFill ul{
+    margin: 0rem 2rem;
+    list-style: none;
+    font-size: 2rem;
+}
+
+.basicInformation .detalisFill ul li{
+    padding: 1rem;
+}
+
+
+
+
+
+
+
 /* Footer */
 footer {
     width: 100%;
