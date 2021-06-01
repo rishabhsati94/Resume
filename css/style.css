@@ -165,9 +165,7 @@ header{
 
 
 
-.data{
-    margin-top: 2rem;
-}
+
 .firstSection .data h1{
     font-weight: 700;
     font-size: 3rem;
@@ -196,9 +194,6 @@ header{
         margin: 16.5rem 2.5rem; 
     }
 
-    .data{
-        margin-top: 0;
-    }
     .socialNetworking{
         margin-top: 10rem;
     }
@@ -232,6 +227,7 @@ section{
 .about h1{
     margin: 0rem 2rem;
     font-size: 4rem;
+    color: #378c3f;
 }
 
 .about p{
@@ -253,6 +249,7 @@ section{
 .basicInformation h1{
     margin: 0rem 2rem;
     font-size: 4rem;
+    color: #378c3f;
 }
 
 .basicInformation .detalis{
@@ -294,6 +291,10 @@ section{
         text-align: center;
     }
         
+    .basicInformation .detalis ul{
+        margin: 0rem 0rem;
+        
+    }
 }
 
 /* Professional Skills */
@@ -304,6 +305,7 @@ section{
     line-height: 1.45rem;
     margin-top: 30px;
     margin-bottom: 5rem;
+    color: black;
 }
 
 .professionalskills{
@@ -560,12 +562,87 @@ section{
 .fourthHeading{
     margin-top: 4rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 100;
+    text-align: center;
+    color: black;
 }
 
+.card{
+    display: flex;
+    width: auto;
+    height: auto;
+    background: white;
+    border-radius: 3rem;
+    margin-top: 5rem;
+}
 
+.card .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: auto;
+    background: rgba(55,140,63,1);
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
 
+.card .left h2,h1{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 100;
+    margin-top: 1.5rem;
+}
+.card .right{
+    width: 90rem;
+}
+.card .right h1{
+    color: black;
+    margin: 2rem 2rem;
+}
 
+.card .right p{
+    color: black;
+    margin: 2rem 2rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1170px) {
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card .left{
+        width:35rem;
+        height: 10rem;
+        border-radius: 3rem;
+    }
+    .card .right{
+        width: auto;
+    }
+    .card .right h1{
+        text-align: center;
+    }
+}
+
+/* Education */
+
+.fifthHeading{
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+}
+
+.card .right h2{
+    color: black;
+    margin: 2rem;
+    margin-top: -1.8rem;
+    font-size: 1.5rem;
+}
 /* Footer */
 footer {
     width: 100vw;
